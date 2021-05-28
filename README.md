@@ -12,9 +12,9 @@ Di folder `./server`:
 1. `npm i`
 2. `node init`
 	* Server akan menyala di `localhost:3000`. Akses via browser.
-3. `node utils/populate_db testdata.csv`
+3. `node tests/populate_db testdata.csv`
     * Ini digunakan untuk menambahkan data sungguhan yang sudah diambil ke database.
-4. `node utils/motor_sim myMotor`
+4. `node tests/motor_sim myMotor`
     * Ini digunakan untuk menambahkan data simulasi ke database. Tekan `ctrl + c` setelah data yang ditambahkan dirasa cukup.
 
 ### Penggunaan
