@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.46.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "influx": "^5.8.0",
+    "mqtt": "^4.2.6",
+    "websocket-stream": "^5.5.2"
+  }
+}
